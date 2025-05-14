@@ -11,13 +11,12 @@ function displayBubbles() {
 
 var timer = 60;
 function runtimer() {
- var timerint =  setInterval(function () {
+  var timerint = setInterval(function () {
     if (timer > 0) {
       timer--;
       document.querySelector(".timer-start").textContent = timer;
-    }
-    else{
-        clearInterval(timerint)
+    } else {
+      clearInterval(timerint);
     }
   }, 1000);
 }
