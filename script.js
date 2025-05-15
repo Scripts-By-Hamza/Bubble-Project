@@ -1,4 +1,4 @@
-var timer = 30;
+var timer = 60;
 var hitRandom;
 var score = 0;
 var timerint;
@@ -47,7 +47,7 @@ document.querySelector("#play-area").addEventListener("click", function (dets) {
     clearInterval(timerint);
     document.querySelector(
       "#play-area"
-    ).innerHTML = `<h1>Game Over 😖  <br> You Clicked ${correctClick} bubbles so, <br> Your Score is ${score}. <br> Refresh To Start Again. </h1>`;
+    ).innerHTML = `<h1>Game Over 😖  <br> Your Score is ${score}. <br> Refresh To Start Again. </h1>`;
     document.querySelector(".timer-start").textContent = 0;
   }
 });
