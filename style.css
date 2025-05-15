@@ -52,11 +52,16 @@ body {
 }
 #play-area {
   display: flex;
+  justify-content: center;
+  align-items: center;
    flex-wrap: wrap;
   gap: 10px;
   padding: 20px;
   width: 100%;
   height: calc(100% - 70px);
+}
+#play-area h1{
+color: rgb(31, 83, 31);
 }
 #bubble {
   background-color: rgb(78, 160, 78);
